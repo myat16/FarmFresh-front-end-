@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>FarmFresh</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+<div id="header">
+<div class="topnav" >
+  <img src="img/FarmFresh Logo.png" class="imglogo">
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search for a product or brand" name="">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+
+  </div>
+</div>
+      <img src="img/shopping-cart.png" class="imgcart">
+</div>
+  <div id="section1" class="landing">
+    <img src="img/Banner Photo.jpg" width="100%">
+  </div><br><br>
+
+  <div>
+    <table style="width: 100%; max-width: 1000px; height: auto;" cellspacing="1" align="center" class="tb1" >   
+   <tr>
+        <td>
+          <p id="p1">FRESH FOOD FOR A FRESHER YOU</p> 
+          <p id="p2">Quality food, quality life</p>
+        </td>
+        <td>
+          <img src="img/Side image.png" class="sideimg" style="width: 100%; max-width: 960px;">
+        </td>
+      </tr>
+
+       </table><br><br></div>
+
+       <table class="icon">
+        <td class="t"> <img src="img/clock.png" id="clock" >
+          <p id="p2">Online anywhere</p>
+        </td>
+        <td class="t">
+        <img src="img/delivery-truck.png" id="truck">
+          <p id="p2">Fast Delivery</p>
+      </td>
+        <td class="t">
+        <img src="img/support.png" id="support">
+        <p id="p2">24/7 Support</p>
+      </td>
+         
+       </table></div>
+    <br><br>
+
+
+<div id="section3">
+<div id='cssmenu' class="sidebar">
+<ul>
+   
+   <li class='active has-sub'><a href='#'><span>On Sales!</span></a>
+      <ul>
+         <li class='has-sub'><a href='#'><span>Latest</span></a>
+            
+         </li>
+         <li class='has-sub'><a href='#'><span>Meat Offers</span></a>
+            
+         </li>
+          <li class='has-sub'><a href='#'><span>Fruits Offers</span></a>  
+         </li>
+      </ul>
+   </li>
+   <li><a href='#'><span>New</span></a></li>
+   <li class='last'><a href='#'><span>Shop by Store</span></a></li>
+
+    <li class='last'><a href='#'><span>Fruit & Veg</span></a></li>
+
+     <li class='last'><a href='#'><span>Meat & Seafood</span></a></li>
+
+      <li class='last'><a href='#'><span>Dairy and Chilled</span></a></li>
+
+       <li class='last'><a href='#'><span>Bakery</span></a></li>
+
+        <li class='last'><a href='#'><span>Beverages</span></a></li>
+</ul>
+
+</div>
+
+<div class="main">
+<div class="category">
+ <table class="c1">
+    <tr>
+      <td class="cat">
+        <img src="img/Untitled-1.png" id="imgshop" onClick="showDialog()">
+        <p id="label" class="itemname">Ripe Blue Grape</p>
+        <p id="label" class="packet">Packet</p>
+      </td>
+      <td class="cat">
+        <img src="img/Untitled-2.png" id="imgshop"> 
+          <p id="label" class="itemname">Tomato</p>
+        <p id="label" class="packet">Packet</p>
+      </td>
+      <td class="cat">
+        <img src="img/Untitled-7.png" id="imgshop">
+          <p id="label" class="itemname">Salmon</p>
+        <p id="label" class="packet">Packet</p>
+      </td>
+    </tr><br>
+
+    <tr>
+      <td class="cat">
+        <img src="img/Untitled-2.png" id="imgshop">
+          <p id="label" class="itemname">Capsicum</p>
+        <p id="label" class="packet">Packet</p>
+
+
+      </td>
+      <td class="cat">
+        <img src="img/Untitled-5.png" id="imgshop">
+           <p id="label" class="itemname">Tomato</p>
+        <p id="label" class="packet">Packet</p>
+      </td>
+      <td class="cat">
+        <img src="img/Untitled-8.jpg" id="imgshop">
+         <p id="label" class="itemname">Ripe Blue Grape</p>
+        <p id="label" class="packet">Packet</p>
+      </td>
+    </tr>
+  </table> <br>
+
+</div>  
+</div></div>
+
+<div id="overlay" onClick="hideDialog()"> </div>
+<div id="dialog">
+  
+    <table style="width: 100%; max-width: 80%; height: auto;"  align="center" class="tb1" >   
+   <tr>
+     <span onClick="hideDialog()" id="x">&times;</span>
+        <td>
+          <img src="img/Untitled-1.png" class="imgdetail">
+        </td>
+
+        <td align="left" >
+           <p class="p1">Ripe Blue Grapes</p>
+          <p class="p2">Packet of 1 bundle</p>
+        </td> 
+
+        <div>
+        <table style="width: 100%; max-width: 50%; height: auto;"  align="right" class="tb1">
+<tr>
+        <td> Key Information </td>
+        <td> Packet of 1 Bundle of grapes </td>
+      </tr>
+
+      <tr>
+        <td>About the Product </td>
+        <td>From the heart of the french Alps after a journey of more than 70 years, springs this Ripe <span id="dots">...</span><span id="more"> Blue Grapes. Thanks to this amazing journey through the Chambotte mountains, it acquires its unique fresgqualities. With our passion for preserving this natural heritage, we are proud to offer you this moment of purity in your busy lives.
+
+        </td> 
+          <button onclick="myFunction()" id="myBtn">Read more</button>
+      </tr>
+
+            
+        <tr>
+          <td>Country of Origin </td>
+          <td>France 
+          </td> </tr><br><br>
+
+<tr>
+          <td>
+             <button id="qty">Qty</button> &nbsp;
+
+      <select id="num" style="-webkit-appearance: none; text-align: center;">
+  <option value="1" class="s">1</option>
+  <option value="2" class="s">2</option>
+  <option value="3" class="s">3</option>  
+       </select>&nbsp; 
+
+      <button id="add">ADD TO CART</button>
+          </td>
+
+        </tr>
+   
+       </table>
+
+</tr>
+ 
+    
+ 
+ </table>
+
+</div>
+   
+ <script>
+    function showDialog() {
+      document.getElementById("overlay").style.display = "block";
+      document.getElementById("dialog").style.display = "block";
+    }
+
+    function hideDialog() {
+      document.getElementById("overlay").style.display = "none";
+      document.getElementById("dialog").style.display = "none";
+    }
+  </script>
+
+  <script type="text/javascript">
+    function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+  </script>
+</body>
+</html>
